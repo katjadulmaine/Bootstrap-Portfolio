@@ -26,9 +26,6 @@ body {
     align-self: auto;
     padding-top: 35px;
 }
-.card-body {
-    width: 960px;
-}
 .card {
     max-width: 960px;
     width: 100%;
@@ -36,15 +33,20 @@ body {
     padding: 35px;
     background: #ffffff;
     border: solid 1px;
-    align-self: center;
+    align-self: auto;
+   
 }
 .img-thumbnail {
     float: left;
     margin-right: 20px;
+    width: 150px;
+    height: 150px;
+    margin: 4px;
+    
 }
 hr {
-    width: 5px;
-    color: black;
+    border-width: 5px;
+    border-color: black;
 }
 h1 {
     padding: 20px;
@@ -57,19 +59,20 @@ h1 {
     border-width: 4px;
     border-color: darkblue;
     border-style: inset;
-
-}
+    width: 150px;
+} 
 .Port-text {
     z-index: 2;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 71%;
+    left: 4.5%;
+    text-align: center;
     overflow: auto;
     color: rgb(116, 41, 6);
     background-color: aquamarine;
-    padding: 2%;
-   
+    height: 26px;
+    width: 146px; 
+     
 }
 #inputAddress {
     height: 200px;
