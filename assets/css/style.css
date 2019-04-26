@@ -70,9 +70,9 @@ h4 {
     width: 33%;
     padding: 5px;
     position: relative;
-    z-index: 94;
+    z-index: 4;
     margin: 0;
-    border-width: 1rem;
+    border-width: 1pt;
     border-style: ridge;
     border-color: rgb(117, 0, 128);
 }
@@ -82,13 +82,13 @@ h4 {
 .project-name{
     position: absolute;
     top: 155px;
-    background-color: rgb(135, 242, 236);
+    background-color: rgba(135, 242, 236, 0.9);
     width: 250px;
     font-size: 22px;
     font-weight: bold;
     color:  rgb(117, 0, 128);
     text-align: center;
-    z-index: 80;
+    z-index: 2;
     margin-left: 20%;
     height: 45px;
     padding-top: 5px;
